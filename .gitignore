@@ -1,0 +1,12 @@
+# 1) ignore absolutely everything at repo root
+/*
+
+# 2) but don’t ignore Git’s own directory or this .gitignore
+!/.gitignore
+!/.git/
+!/LICENSE
+
+# 3) and don’t ignore these specific dotfiles
+!/.zshrc
+!/.gitconfig
+!/.vimrc
